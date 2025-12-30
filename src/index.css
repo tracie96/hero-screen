@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-Variable.ttf') format('truetype-variations');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-VariableItalic.ttf') format('truetype-variations');
+  font-weight: 200 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  body {
+    @apply font-sans text-gray-800 overflow-x-hidden;
+    background: linear-gradient(180deg, #F0F8FF 0%, #E6F2FF 50%, #D6E9FF 100%);
+    min-height: 100vh;
+  }
+
+  #root {
+    @apply min-h-screen relative;
+  }
+}
+
+
+
