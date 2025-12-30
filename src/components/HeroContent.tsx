@@ -38,9 +38,9 @@ const HeroContent = () => {
         <button className="bg-blue-darker text-white border-none py-4 px-8 rounded-[50px] text-base font-semibold cursor-pointer transition-colors hover:opacity-90 max-md:w-full max-md:justify-center max-sm:py-3.5 max-sm:px-6 max-sm:text-[0.9375rem]">
           Get Started
         </button>
-        <button className="text-gray-800 border border-[#6C788F] py-4 px-8 rounded-[50px] text-base font-semibold cursor-pointer transition-all hover:bg-gray-100 hover:border-gray-400 flex items-center gap-3 max-md:w-full max-md:justify-center max-sm:py-3.5 max-sm:px-6 max-sm:text-[0.9375rem]">
+        <button className="text-gray-800 border border-[#6C788F] py-4 px-8 rounded-[50px] text-base font-semibold cursor-pointer transition-all flex items-center gap-3 max-md:w-full max-md:justify-center max-sm:py-3.5 max-sm:px-6 max-sm:text-[0.9375rem]">
           <img src={appleIcon} alt="Apple" className="w-5 h-5 flex-shrink-0" />
-          <div className="w-px h-5 bg-gray-300"></div>
+          <div className="w-px h-5 bg-gray-500"></div>
           <span>Download the Mac app</span>
         </button>
       </div>
