@@ -30,7 +30,7 @@ const HeroContent = () => {
         <span className="block">Workflows.</span>
       </h1>
       
-      <p className="text-lg text-gray-500 leading-relaxed mb-10 max-w-[600px] mx-auto max-md:text-base max-md:mb-8 max-sm:text-[0.9375rem] text-[#000000]">
+      <p className="text-lg leading-relaxed mb-10 max-w-[600px] mx-auto max-md:text-base max-md:mb-8 max-sm:text-[0.9375rem] text-[#000000]">
         Coup lets you, your team, or AI workflows send iMessages directly from your phone number, running securely on your Mac or Mac Mini.
       </p>
       
